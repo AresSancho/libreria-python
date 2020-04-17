@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>731</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Bienvenido a mi aplicacion de gestión 
+ de una librería</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuLibros">
+    <property name="title">
+     <string>Libros</string>
+    </property>
+    <addaction name="submenu_insertar_libro"/>
+    <addaction name="submenu_listar_libros"/>
+    <addaction name="submenu_list_widget_libros"/>
+    <addaction name="submenu_table_widget_libros"/>
+    <addaction name="submenu_inicio"/>
+   </widget>
+   <addaction name="menuLibros"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="submenu_insertar_libro">
+   <property name="text">
+    <string>Insertar Libro</string>
+   </property>
+  </action>
+  <action name="submenu_listar_libros">
+   <property name="text">
+    <string>Listar Libros</string>
+   </property>
+  </action>
+  <action name="actioninicio">
+   <property name="text">
+    <string>inicio</string>
+   </property>
+  </action>
+  <action name="submenu_inicio">
+   <property name="text">
+    <string>inicio</string>
+   </property>
+  </action>
+  <action name="submenu_list_widget_libros">
+   <property name="text">
+    <string>Listar Libros usando List Widget</string>
+   </property>
+  </action>
+  <action name="submenu_table_widget_libros">
+   <property name="text">
+    <string>Listar Libros usando Table Widget</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
